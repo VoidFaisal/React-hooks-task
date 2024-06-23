@@ -20,7 +20,7 @@ const card = ({isHome = false}) => {
     fetch_flower();
   }, []);
 
-    const flowerlist = isHome ? phool:phool.slice(0,3);
+    const flowerlist = isHome ? phool : phool.slice(0,3);
   return (
     <>
       <section className={`bg-blue-50 px-4 py-10 ${isHome?'pt-40':''}`}>
