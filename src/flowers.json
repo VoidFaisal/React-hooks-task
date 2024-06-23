@@ -1,0 +1,84 @@
+{
+  "flowerlist": [
+    {
+      "category": "Shrubs",
+      "price": 15.99,
+      "instructions": "Large double. Good grower, heavy bloomer. Early to mid-season, acid loving plants. Plant in moist well drained soil with pH of 4.0-5.5.",
+      "photo": "https://cdn.britannica.com/41/93441-050-F58F8EF1/Gardeners-rhododendrons-flowers.jpg",
+      "name": "Azalea",
+      "productId": 1
+    },
+    {
+      "category": "Shrubs",
+      "price": 33.99,
+      "instructions": "Beautiful large royal purple flowers adorn attractive satiny green leaves that turn orange\\/red in cold weather. Grows to up to 18 feet, or prune annually to shorten.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Tibouchina_semidecandra_%282%29.jpg",
+      "name": "Tibouchina Semidecandra",
+      "productId": 2
+    },
+    {
+      "category": "Shrubs",
+      "price": 12.99,
+      "instructions": "Blooms in summer, 20-35 inches high. Fertilize regularly for best results. Full sun, drought tolerant.",
+      "photo": "https://myflowerland.com/wp-content/uploads/2021/08/Hibiscus-Perennial-1024x1024.jpg",
+      "name": "Hibiscus",
+      "productId": 3
+    },
+    {
+      "category": "Shrubs",
+      "price": 5.99,
+      "instructions": "Quick-growing, herbaceous, shrub reaching up to 30 inches in height, forming a rounded, dense bush.",
+      "photo": "https://www.terranovanurseries.com/wp-content/uploads/2020/12/Plectranthus-Velvet-Diva-5-1.jpg",
+      "name": "Plectranthus",
+      "productId": 4
+    },
+    {
+      "category": "Shrubs",
+      "price": 15.99,
+      "instructions": "Slow growing, upright to spreading shrub. Oval, glossy, leaves and profuse winter to spring blooming flowers.",
+      "photo": "https://www.southernliving.com/thmb/G7yKgR_9k1uDld4lbxJ4_9TvIxI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ga_c79a1f75ca77b86d_spcms_0-2000-8275b6d9f2fc49609e834d0183a6ee68.jpg",
+      "name": "Camellia Japonica",
+      "productId": 5
+    },
+    {
+      "category": "Shrubs",
+      "price": 10.99,
+      "instructions": "Thorny woody vine scrambles over other plants with their hooked thorns. Pest free.",
+      "photo": "https://static.wixstatic.com/media/5315e8_497bc6a4283e4ee2b50c55e46c226c5f~mv2.jpg/v1/fill/w_500,h_333,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5315e8_497bc6a4283e4ee2b50c55e46c226c5f~mv2.jpg",
+      "name": "Bougainvillea Spectabilis",
+      "productId": 6
+    },
+    {
+      "category": "Shrubs",
+      "price": 22.99,
+      "instructions": "Deep purple colored flowers bushy rounded growth habit to 3 feet tall. Plant in full sun. Water regularly.",
+      "photo": "https://www.ludwigsroses.co.za/wp-content/uploads/2015/08/Burgundy-Panarosa-6.jpg",
+      "name": "Rosa Burgundy",
+      "productId": 7
+    },
+    {
+      "category": "Shrubs",
+      "price": 22.99,
+      "instructions": "Deep purple colored flowers bushy rounded growth habit to 3 feet tall. Plant in full sun. Water regularly.",
+      "photo": "https://www.jcbakker.com/wp-content/uploads/2015/06/84042_Iceburg.jpg",
+      "name": "Rosa Iceberg",
+      "productId": 8
+    },
+    {
+      "category": "Container Plants",
+      "price": 45.99,
+      "instructions": "They do not thrive indoors, where the light is too dim, and humidity too low, for them to grow properly.",
+      "photo": "https://m.media-amazon.com/images/I/518l1-IZ0zL.jpg",
+      "name": "Bonsai Tree",
+      "productId": 9
+    },
+    {
+      "category": "Container Plants",
+      "price": 12.99,
+      "instructions": "Blooms continuously from early spring to first frost. Full sun or part shade, moist well-drained soil.",
+      "photo": "http://plants.makeitgreen.ca/Content/Images/Photos/G702-20.jpg",
+      "name": "Calibrachoa Noa",
+      "productId": 10
+    }
+  ]
+}
