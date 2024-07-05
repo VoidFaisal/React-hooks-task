@@ -5,9 +5,9 @@ const CardElement = (props) => {
     <>
       <div
         className="bg-white rounded-xl shadow-md relative flex-1 min-w-[300px]"
-        key={props.index}
+        
       >
-        <div className="p-4">
+        <div className="p-4" >
             <img className="relative py-4 " src={props.flow.photo} alt={props.flow.name} />
           <div className="mb-5">{props.flow.instructions}</div>
           <h3 className="text-indigo-500 mb-2">{props.flow.price}$</h3>

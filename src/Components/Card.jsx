@@ -8,7 +8,7 @@ const card = ({isHome = false}) => {
   useEffect(() => {
     const fetch_flower = async () => {
       try {
-        const flowers = await fetch('/api/flowerlist');
+        const flowers = await fetch('/api');
         const fetched = await flowers.json();
         setPhool(fetched);
       } catch (error) {
@@ -19,7 +19,7 @@ const card = ({isHome = false}) => {
     };
     fetch_flower();
   }, []);
-
+    console.log(phool);
     const flowerlist = isHome ? phool : phool.slice(0,3);
   return (
     <>
@@ -31,15 +31,15 @@ const card = ({isHome = false}) => {
           <div className="flex flex-wrap gap-6">
             {/* <!-- Job Listing 1 --> */}
             {flowerlist.map((flow, index) => (
-              <CardElement flow={flow} index={index}/>
+              <CardElement flow={flow} key={index}/>
             ))}
           </div>
         </div>
       </section>
-      {isHome? '':<section class="m-auto max-w-lg my-10 px-6">
+      {isHome? '':<section className="m-auto max-w-lg my-10 px-6">
       <Link
         to="allflowers"
-        class="block bg-gray-700 text-white text-center py-4 px-6 rounded-xl hover:bg-indigo-700"
+        className="block bg-gray-700 text-white text-center py-4 px-6 rounded-xl hover:bg-indigo-700"
         >View All Flowers</Link>
     </section>}
     </>
